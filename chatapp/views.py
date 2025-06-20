@@ -44,7 +44,7 @@ def process_longchat(request):
     return render(request, 'chatapp/longchat.html')
 
 
-# 这里用来处理md以及按钮切换
+# 这里用来处理md以及按钮切换，仅有单轮对话
 def process_text_mdview_swt(request):
     if request.method == 'POST':
         # 获取表单提交的文本
