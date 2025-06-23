@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="620aedf6-bd59-4b3d-83c7-d7347c89d139" name="Changes" comment="clone to mac">
-      <change beforePath="$PROJECT_DIR$/.idea/WebChat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebChat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="620aedf6-bd59-4b3d-83c7-d7347c89d139" name="Changes" comment="add key from mac">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp/api_utils/longchat.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/api_utils/longchat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp/templates/chatapp/resultMD.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/templates/chatapp/resultMD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +182,7 @@
       <workItem from="1750354388327" duration="2689000" />
       <workItem from="1750357107485" duration="7566000" />
       <workItem from="1750409862063" duration="557000" />
-      <workItem from="1750668155112" duration="755000" />
+      <workItem from="1750668155112" duration="3338000" />
     </task>
     <task id="LOCAL-00001" summary="clone to mac">
       <option name="closed" value="true" />
@@ -191,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750410410835</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add key from mac">
+      <option name="closed" value="true" />
+      <created>1750669196718</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750669196718</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +219,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="clone to mac" />
-    <option name="LAST_COMMIT_MESSAGE" value="clone to mac" />
+    <MESSAGE value="add key from mac" />
+    <option name="LAST_COMMIT_MESSAGE" value="add key from mac" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -218,6 +228,10 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/chatapp/api_utils/shortchat.py</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chatapp/api_utils/longchat.py</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
