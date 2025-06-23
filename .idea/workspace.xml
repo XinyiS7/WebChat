@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="620aedf6-bd59-4b3d-83c7-d7347c89d139" name="Changes" comment="add key from mac">
+    <list default="true" id="620aedf6-bd59-4b3d-83c7-d7347c89d139" name="Changes" comment="from mac">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatapp/api_utils/longchat.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/api_utils/longchat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatapp/templates/chatapp/resultMD.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/templates/chatapp/resultMD.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +180,7 @@
       <workItem from="1750354388327" duration="2689000" />
       <workItem from="1750357107485" duration="7566000" />
       <workItem from="1750409862063" duration="557000" />
-      <workItem from="1750668155112" duration="3338000" />
+      <workItem from="1750668155112" duration="4985000" />
     </task>
     <task id="LOCAL-00001" summary="clone to mac">
       <option name="closed" value="true" />
@@ -200,7 +198,31 @@
       <option name="project" value="LOCAL" />
       <updated>1750669196718</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change css of resultMD. rerender the markdown and code block">
+      <option name="closed" value="true" />
+      <created>1750671657167</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750671657167</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add GET method, but noch workng">
+      <option name="closed" value="true" />
+      <created>1750671678913</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750671678913</updated>
+    </task>
+    <task id="LOCAL-00005" summary="from mac">
+      <option name="closed" value="true" />
+      <created>1750671688773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750671688773</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +242,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="clone to mac" />
     <MESSAGE value="add key from mac" />
-    <option name="LAST_COMMIT_MESSAGE" value="add key from mac" />
+    <MESSAGE value="change css of resultMD. rerender the markdown and code block" />
+    <MESSAGE value="add GET method, but noch workng" />
+    <MESSAGE value="from mac" />
+    <option name="LAST_COMMIT_MESSAGE" value="from mac" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
