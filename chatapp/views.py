@@ -42,7 +42,6 @@ def process_longchat(request):
 
     return render(request, 'chatapp/longchat.html')
 
-
 # 这里用来处理md以及按钮切换，仅有单轮对话
 def process_text_mdview_swt(request):
     if request.method == 'POST':
@@ -70,3 +69,23 @@ def process_text_mdview_swt(request):
             'processed_text': processed_html  # 传递已转换的 HTML
         })
     return render(request, 'chatapp/formMD.html')
+
+# 这里用来离线测试接收与返回效果
+# TODO
+def offline_process(request):
+    if request.method == 'POST':
+        input_text = request.POST.get('input_text', '')
+        mode = request.POST.get('mode', 'chat')
+        processed_text = process_text_model(input_text, mode)
+        TextSubmission.objects.create(
+            input_text=input_text,
+            mode=mode,
+            processed_text=processed_text
+        )
+
+        # 将 Markdown 转换为 HTML，并标记为安全字符串（避免转义）
+        # processed_html = mark_safe(markdown.markdown(processed_text))
+
+        return JsonResponse({
+            'input_text': input_text,
+        })

@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="620aedf6-bd59-4b3d-83c7-d7347c89d139" name="Changes" comment="from mac">
-      <change afterPath="$PROJECT_DIR$/chatapp/static/chatapp/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatapp/static/chatapp/script/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatapp/templates/chatapp/realtimeChat.html" afterDir="false" />
+    <list default="true" id="620aedf6-bd59-4b3d-83c7-d7347c89d139" name="Changes" comment="from mac 无刷新网页前端">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebChat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebChat/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatapp/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatapp/templates/chatapp/formMD.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/templates/chatapp/formMD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatapp/templates/chatapp/longchat.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/templates/chatapp/longchat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp/static/chatapp/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/static/chatapp/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp/templates/chatapp/realtimeChat.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/templates/chatapp/realtimeChat.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +189,7 @@
       <workItem from="1750357107485" duration="7566000" />
       <workItem from="1750409862063" duration="557000" />
       <workItem from="1750668155112" duration="5167000" />
-      <workItem from="1750766406689" duration="4709000" />
+      <workItem from="1750766406689" duration="7617000" />
     </task>
     <task id="LOCAL-00001" summary="clone to mac">
       <option name="closed" value="true" />
@@ -233,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750671688773</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="from mac 无刷新网页前端">
+      <option name="closed" value="true" />
+      <created>1750771298914</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750771298914</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +262,8 @@
     <MESSAGE value="change css of resultMD. rerender the markdown and code block" />
     <MESSAGE value="add GET method, but noch workng" />
     <MESSAGE value="from mac" />
-    <option name="LAST_COMMIT_MESSAGE" value="from mac" />
+    <MESSAGE value="from mac 无刷新网页前端" />
+    <option name="LAST_COMMIT_MESSAGE" value="from mac 无刷新网页前端" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
