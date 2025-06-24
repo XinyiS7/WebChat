@@ -2,10 +2,9 @@ from django.utils.safestring import mark_safe # 为了能够渲染markdown
 from django.shortcuts import render, redirect
 from django.http import JsonResponse
 from django.views.decorators.http import require_POST
-from .models import TextSubmission
-from .processing import process_text_model, process_long_text  # 我们稍后会创建这个处理函数
+from .models import TextSubmission # 从本项目的.py文件导入函数时，不要加后缀
+from .processing import process_text_model, process_long_text
 import markdown
-import json
 
 @require_POST
 def process_longchat(request):

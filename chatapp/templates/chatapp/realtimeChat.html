@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <link rel="stylesheet" href="{% static 'chatapp/css/styles.css' %}">
+    <meta charset="UTF-8">
+    <title>无刷新交互页面</title>
+</head>
+<body>
+<div id="chat-container">
+    <!--这里用来加载动态聊天窗口-->
+    <div id="chat-massage">
+        # TODO
+    </div>
+    <div id="chat-form">
+    <form action="{% url '尚未指定' %}" method="post">
+        {% csrf_token %}
+        <div class="mode-switch">
+            <label class="switch">
+                <input type="checkbox" id="modeToggle">
+                <span class="slider"></span>
+            </label>
+            <!-- 将切换按钮的值作为用户不可见的隐藏值，随表单一起提交 -->
+            <input type="hidden" id="selectedMode" name="mode" value="chat">
+            <!--span class="mode-label">当前模式: <span id="modeText">chat</span></span-->
+        </div>
+
+        <textarea name="input_text" rows="5" cols="40"></textarea><br>
+        <button type="submit">提交处理</button>
+    </form>
+    </div>
+</div>
+
+<script>
+  const toggle = document.getElementById('modeToggle');
+  const hidden = document.getElementById('selectedMode');
+  const label = document.getElementById('modeText');
+
+  toggle.addEventListener('change', function () {
+    if (this.checked) {
+      hidden.value = 'search';
+      if (label) label.textContent = 'search';
+    } else {
+      hidden.value = 'chat';
+      if (label) label.textContent = 'chat';
+    }
+  });
+</script>
+
+
+</body>
+</html>
