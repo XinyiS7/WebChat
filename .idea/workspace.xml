@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="620aedf6-bd59-4b3d-83c7-d7347c89d139" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chatapp/api_utils/longchat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatapp/templates/chatapp/longchat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatapp/api_utils/saysth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatapp/api_utils/shortchat.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/api_utils/shortchat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatapp/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatapp/templates/chatapp/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatapp/templates/chatapp/result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="620aedf6-bd59-4b3d-83c7-d7347c89d139" name="Changes" comment="这是啥！" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,8 +175,25 @@
       <workItem from="1750107351691" duration="2146000" />
       <workItem from="1750159736547" duration="22032000" />
       <workItem from="1750354388327" duration="2689000" />
-      <workItem from="1750357107485" duration="7566000" />
+      <workItem from="1750357107485" duration="8099000" />
     </task>
+    <task id="LOCAL-00001" summary="增加了同页面连续对话的基本框架，但是还没有运行">
+      <option name="closed" value="true" />
+      <created>1750365425304</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750365425304</updated>
+    </task>
+    <task id="LOCAL-00002" summary="这是啥！">
+      <option name="closed" value="true" />
+      <created>1750365477613</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750365477613</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +209,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加了同页面连续对话的基本框架，但是还没有运行" />
+    <MESSAGE value="这是啥！" />
+    <option name="LAST_COMMIT_MESSAGE" value="这是啥！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
