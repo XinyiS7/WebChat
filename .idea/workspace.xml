@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="620aedf6-bd59-4b3d-83c7-d7347c89d139" name="Changes" comment="这是啥！" />
+    <list default="true" id="620aedf6-bd59-4b3d-83c7-d7347c89d139" name="Changes" comment="from mac 无刷新网页前端">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebChat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebChat/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp/static/chatapp/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/static/chatapp/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp/templates/chatapp/realtimeChat.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/templates/chatapp/realtimeChat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +23,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -25,7 +34,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -35,44 +44,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.shortchat.executor": "Run",
-    "Python.views.executor": "Debug",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/WebChat/chatapp/templates/chatapp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.shortchat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.views.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alicia/WebChat&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\WebChat\chatapp\templates\chatapp" />
       <recent name="E:\WebChat\chatapp\api_utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chatapp/static/chatapp/css" />
       <recent name="E:\WebChat\chatapp\templates\chatapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.views">
+  <component name="RunManager" selected="Python.shortchat">
     <configuration name="shortchat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WebChat" />
       <option name="ENV_FILES" value="" />
@@ -128,7 +140,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.13 (WebChat)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -145,9 +156,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django Server.WebChat" />
-      <item itemvalue="Python.views" />
       <item itemvalue="Python.shortchat" />
+      <item itemvalue="Python.views" />
+      <item itemvalue="Django Server.WebChat" />
     </list>
     <recent_temporary>
       <list>
@@ -175,25 +186,60 @@
       <workItem from="1750107351691" duration="2146000" />
       <workItem from="1750159736547" duration="22032000" />
       <workItem from="1750354388327" duration="2689000" />
-      <workItem from="1750357107485" duration="8099000" />
+      <workItem from="1750357107485" duration="7566000" />
+      <workItem from="1750409862063" duration="557000" />
+      <workItem from="1750668155112" duration="5167000" />
+      <workItem from="1750766406689" duration="7617000" />
     </task>
-    <task id="LOCAL-00001" summary="增加了同页面连续对话的基本框架，但是还没有运行">
+    <task id="LOCAL-00001" summary="clone to mac">
       <option name="closed" value="true" />
-      <created>1750365425304</created>
+      <created>1750410410835</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1750365425304</updated>
+      <updated>1750410410835</updated>
     </task>
-    <task id="LOCAL-00002" summary="这是啥！">
+    <task id="LOCAL-00002" summary="add key from mac">
       <option name="closed" value="true" />
-      <created>1750365477613</created>
+      <created>1750669196718</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1750365477613</updated>
+      <updated>1750669196718</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change css of resultMD. rerender the markdown and code block">
+      <option name="closed" value="true" />
+      <created>1750671657167</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750671657167</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add GET method, but noch workng">
+      <option name="closed" value="true" />
+      <created>1750671678913</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750671678913</updated>
+    </task>
+    <task id="LOCAL-00005" summary="from mac">
+      <option name="closed" value="true" />
+      <created>1750671688773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750671688773</updated>
+    </task>
+    <task id="LOCAL-00006" summary="from mac 无刷新网页前端">
+      <option name="closed" value="true" />
+      <created>1750771298914</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750771298914</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,9 +257,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加了同页面连续对话的基本框架，但是还没有运行" />
-    <MESSAGE value="这是啥！" />
-    <option name="LAST_COMMIT_MESSAGE" value="这是啥！" />
+    <MESSAGE value="clone to mac" />
+    <MESSAGE value="add key from mac" />
+    <MESSAGE value="change css of resultMD. rerender the markdown and code block" />
+    <MESSAGE value="add GET method, but noch workng" />
+    <MESSAGE value="from mac" />
+    <MESSAGE value="from mac 无刷新网页前端" />
+    <option name="LAST_COMMIT_MESSAGE" value="from mac 无刷新网页前端" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -221,6 +271,10 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/chatapp/api_utils/shortchat.py</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chatapp/api_utils/longchat.py</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

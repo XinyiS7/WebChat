@@ -22,3 +22,4 @@ urlpatterns = [
     path('', include('chatapp.urls')),
     # 这里include的是app级文件夹中的路由文件，不用带后缀，层级关系是用点 . 衔接的
 ]
+
